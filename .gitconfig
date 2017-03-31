@@ -1,0 +1,4 @@
+[alias]
+	st = status
+	acm = commit -a
+	envia = !git checkout master && git pull && git checkout dev && git rebase master && git checkout master && git merge dev && git push
